@@ -38,7 +38,7 @@ jobs:
           test: true
           lint: false
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Build client for production
         run: npm run build:client
       - name: Cypress tests
